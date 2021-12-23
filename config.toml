@@ -1,4 +1,4 @@
-baseURL = 'https://frosty-einstein-e2560f.netlify.app'
+baseURL = 'https://frosty-einstein-e2560f.netlify.app/'
 languageCode = 'en-us'
 title = 'American Journal of Health Studies'
 theme = "hugo-highlights-theme"
