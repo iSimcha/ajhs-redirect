@@ -1,6 +1,6 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://frosty-einstein-e2560f.netlify.app'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'American Journal of Health Studies'
 theme = "hugo-highlights-theme"
 
 [params]
