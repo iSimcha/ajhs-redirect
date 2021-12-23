@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+	<head>
+		{{ partial "head.html" . }}
+	</head>
+	<body>
+		{{ $list := .Site.Params.block }}
+		{{ partial "hero.html" (dict "block" .Site.Params.hero) }}
+
+		{{ partial "scripts.html" . }}
+		{{- partial "footer_custom.html" . }}
+	</body>
+</html>

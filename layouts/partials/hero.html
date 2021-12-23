@@ -1,0 +1,7 @@
+{{ "<!-- header -->" | safeHTML}}
+<section id="header">
+  <header class="major 1">
+    <h1>{{ with $.block.title }} {{ . | markdownify }} {{ end }}</h1>
+    <p>{{ with $.block.description }} {{ . | markdownify }} {{ end }}</p>
+  </header>
+</section>
