@@ -6,7 +6,7 @@ theme = "hugo-highlights-theme"
 [params]
 
     # Redirect to another site after 5 seconds
-    redirectURL_Disable = "https://www.amjhealthstudies.com/index.php/ajhs/"
+    redirectURL = "https://www.amjhealthstudies.com/index.php/ajhs/"
     redirectDelay = 5
 
     # To provide more meta data for search engings feel free to add a few informations.
