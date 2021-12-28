@@ -8,11 +8,15 @@ theme = "hugo-highlights-theme"
     # Redirect to another site after 5 seconds
     redirectURL = "https://www.amjhealthstudies.com/index.php/ajhs/"
     redirectDelay = 5
+    # Use these for testing.
+    #redirectURL = ""
+    #redirectDelay = 1500
 
     # To provide more meta data for search engings feel free to add a few informations.
     # This lines will be inserted as meta tags.
     name = "Your Name"
     description = "Your Description"
+    image = ""
 
     # If this param is set to true, every section gets an own background image (located at static/images)
     # to change the image you could use the param picture on every section.

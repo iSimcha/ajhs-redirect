@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		{{ $list := .Site.Params.block }}
-		{{ partial "hero.html" (dict "block" .Site.Params.hero) }}
+		{{ partial "hero.html" (dict "block" .Site.Params.hero "url" .Site.Params.redirectURL) }}
 
 		{{ partial "scripts.html" . }}
 		{{- partial "footer_custom.html" . }}

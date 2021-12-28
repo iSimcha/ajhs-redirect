@@ -3,5 +3,6 @@
   <header class="major 1">
     <h1>{{ with $.block.title }} {{ . | markdownify }} {{ end }}</h1>
     <p>{{ with $.block.description }} {{ . | markdownify }} {{ end }}</p>
+    <p>If you are not redirected, please <a href="{{ if .url }}{{ .url | safeHTML }}{{end}}" class="">click here</a>.</p>
   </header>
 </section>
